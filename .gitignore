@@ -1,0 +1,27 @@
+# secrets
+.env
+.env.*
+*.key
+*.pem
+*secret*
+*credentials*
+*token*
+api_key*
+# model weights (download separately, see README)
+models/
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+*.bin
+*.gguf
+*.onnx
+# ComfyUI scratch
+output/
+temp/
+__pycache__/
+.DS_Store
+# example outputs not approved for release
+examples/outputs/contact.png
+*.zip
+examples/outputs/series_*/
